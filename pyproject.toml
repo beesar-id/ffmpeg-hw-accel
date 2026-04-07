@@ -6,7 +6,7 @@ readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }
 authors = [
-    { name = "Your Name", email = "you@example.com" }
+    { name = "hynra", email = "hynra@yahoo.com" }
 ]
 keywords = ["ffmpeg", "hardware", "acceleration", "nvenc", "vaapi", "videotoolbox", "qsv"]
 classifiers = [
@@ -16,13 +16,12 @@ classifiers = [
     "Topic :: Multimedia :: Video",
     "Topic :: Multimedia :: Video :: Conversion",
 ]
+dependencies = []
 
 [project.urls]
 Homepage = "https://github.com/beesar-id/ffmpeg-hw-accel"
 Repository = "https://github.com/beesar-id/ffmpeg-hw-accel"
 Issues = "https://github.com/beesar-id/ffmpeg-hw-accel/issues"
-
-dependencies = []
 
 [project.optional-dependencies]
 dev = [

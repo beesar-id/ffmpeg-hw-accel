@@ -323,7 +323,7 @@ This project uses [`uv`](https://github.com/astral-sh/uv) for dependency managem
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # Clone the repository
-git clone https://github.com/your-username/ffmpeg-hw-accel.git
+git clone https://github.com/beesar-id/ffmpeg-hw-accel.git
 cd ffmpeg-hw-accel
 
 # Install dependencies including dev extras
