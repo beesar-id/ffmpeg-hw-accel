@@ -1,9 +1,27 @@
 [project]
-name = "ffmpeg-hw-accel"
+name = "ffmpeg-hw-accel"          # must be unique on PyPI
 version = "0.1.0"
 description = "Convert ffmpeg commands to use hardware acceleration"
 readme = "README.md"
 requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+    { name = "Your Name", email = "you@example.com" }
+]
+keywords = ["ffmpeg", "hardware", "acceleration", "nvenc", "vaapi", "videotoolbox", "qsv"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Multimedia :: Video",
+    "Topic :: Multimedia :: Video :: Conversion",
+]
+
+[project.urls]
+Homepage = "https://github.com/beesar-id/ffmpeg-hw-accel"
+Repository = "https://github.com/beesar-id/ffmpeg-hw-accel"
+Issues = "https://github.com/beesar-id/ffmpeg-hw-accel/issues"
+
 dependencies = []
 
 [project.optional-dependencies]
